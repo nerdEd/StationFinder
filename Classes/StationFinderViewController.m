@@ -22,31 +22,32 @@
 	locationManager = [[CLLocationManager alloc] init]; 
 	locationManager.delegate = self; 
 	[locationManager startUpdatingLocation]; 
-
-
-	// Get station information based on users location
-	StationXmlReader *stationXmlReader = [[StationXmlReader alloc] init];
-	NSError *parseError = nil;
-	NSString *apiEndpointString = @"http://api.npr.org/stations?lat=37.22987&lon=80.41769&apiKey=MDAzMTMxODQ4MDEyMzU2ODI5MjQzNjE3NA001";
-	[stationXmlReader parseXMLFileAtURL:[NSURL URLWithString: apiEndpointString] parseError:&parseError];
+	
 }
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation { 	
 	
 	[locationManager stopUpdatingLocation];
-	// Send URL to XML parser
-	// Get list of Locations
-	// Put locations into TableView
-	[activitySpinner setHidden:YES];
-	// Show table view
 	
+	StationXmlReader *stationXmlReader = [[StationXmlReader alloc] init];
+	
+	NSError *parseError = nil;
+	NSString *apiEndpointString = [NSString stringWithFormat: @"http://api.npr.org/stations?lat=%1.2f&lon=%1.2f&apiKey=MDAzMTMxODQ4MDEyMzU2ODI5MjQzNjE3NA001", newLocation.coordinate.latitude, newLocation.coordinate.longitude];
+	NSLog(apiEndpointString);
+	stationList = [stationXmlReader parseXMLFileAtURL:[NSURL URLWithString: apiEndpointString] parseError:&parseError];
+	
+	// Put locations into TableView
+	
+	[activitySpinner setHidden:YES];
+	
+	// Show table view	
 } 
 
 - (void)locationManager:(CLLocationManager *)manager didFailWithError:(NSError *) error {
 }
 
 - (void) addStation:(Station *)station {
-
+	[stationList addObject:station];
 }
 
 // The application only makes sense in portrait view

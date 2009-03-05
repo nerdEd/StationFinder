@@ -281,8 +281,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>16</integer>
-									<integer>15</integer>
+									<integer>9</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -322,7 +322,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>D3ECE66C0F59D97A00BD7727</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>StationFinderViewController.m</string>
+								<string>StationXmlReader.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -330,18 +330,20 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>D3ECE66D0F59D97A00BD7727</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>StationFinderViewController.m</string>
+										<string>StationXmlReader.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>D3A29E500F5F8ADF0021E1B6</string>
+										<string>D3A29F0A0F5F986B0021E1B6</string>
 										<key>history</key>
 										<array>
-											<string>D303BB230F5E34DA009CDE8C</string>
 											<string>D303BB250F5E34DA009CDE8C</string>
-											<string>D3A29E070F5F69410021E1B6</string>
-											<string>D3A29E080F5F69410021E1B6</string>
-											<string>D3A29E090F5F69410021E1B6</string>
+											<string>D3A29E9B0F5F91060021E1B6</string>
+											<string>D3A29EC20F5F95040021E1B6</string>
+											<string>D3A29EE60F5F983C0021E1B6</string>
+											<string>D3A29EE70F5F983C0021E1B6</string>
+											<string>D3A29EE80F5F983C0021E1B6</string>
+											<string>D3A29EE90F5F983C0021E1B6</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -355,6 +357,33 @@
 											<string>D3A29E0C0F5F69410021E1B6</string>
 											<string>D3A29E0D0F5F69410021E1B6</string>
 											<string>D3A29E0E0F5F69410021E1B6</string>
+											<string>D3A29E9F0F5F91060021E1B6</string>
+											<string>D3A29EA00F5F91060021E1B6</string>
+											<string>D3A29EA10F5F91060021E1B6</string>
+											<string>D3A29EA20F5F91060021E1B6</string>
+											<string>D3A29EC50F5F95040021E1B6</string>
+											<string>D3A29EC60F5F95040021E1B6</string>
+											<string>D3A29EC70F5F95040021E1B6</string>
+											<string>D3A29EC80F5F95040021E1B6</string>
+											<string>D3A29EC90F5F95040021E1B6</string>
+											<string>D3A29ECA0F5F95040021E1B6</string>
+											<string>D3A29ECB0F5F95040021E1B6</string>
+											<string>D3A29EEA0F5F983C0021E1B6</string>
+											<string>D3A29EEB0F5F983C0021E1B6</string>
+											<string>D3A29EEC0F5F983C0021E1B6</string>
+											<string>D3A29EED0F5F983C0021E1B6</string>
+											<string>D3A29EEE0F5F983C0021E1B6</string>
+											<string>D3A29EEF0F5F983C0021E1B6</string>
+											<string>D3A29EF00F5F983C0021E1B6</string>
+											<string>D3A29EF10F5F983C0021E1B6</string>
+											<string>D3A29EF20F5F983C0021E1B6</string>
+											<string>D3A29EF30F5F983C0021E1B6</string>
+											<string>D3A29EF40F5F983C0021E1B6</string>
+											<string>D3A29EF50F5F983C0021E1B6</string>
+											<string>D3A29EF60F5F983C0021E1B6</string>
+											<string>D3A29EF70F5F983C0021E1B6</string>
+											<string>D3A29EF80F5F983C0021E1B6</string>
+											<string>D3A29EF90F5F983C0021E1B6</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -663,8 +692,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>D3A29E510F5F8ADF0021E1B6</string>
-		<string>D3A29E520F5F8ADF0021E1B6</string>
+		<string>D3A29E640F5F8E060021E1B6</string>
 		<string>D3A29DDF0F5F630F0021E1B6</string>
 		<string>D3A29DD40F5F62BF0021E1B6</string>
 		<string>/Users/Jonas714/Development/iPhone/StationFinder/StationFinder.xcodeproj</string>

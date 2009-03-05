@@ -9,13 +9,13 @@
 @interface Station : NSObject {
 	NSString *name;
 	NSString *marketCity;
-	NSNumber *signal;
-	NSNumber *frequency;
+	NSString *signal;
+	NSString *frequency;
 }
 
 @property(nonatomic, retain) NSString *name;
 @property(nonatomic, retain) NSString *marketCity;
-@property(nonatomic, retain) NSNumber *signal;
-@property(nonatomic, retain) NSNumber *frequency;
+@property(nonatomic, retain) NSString *signal;
+@property(nonatomic, retain) NSString *frequency;
 
 @end

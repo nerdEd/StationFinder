@@ -11,12 +11,13 @@
 
 @implementation StationXmlReader
 
-@synthesize currentStation, currentStationProperty;
+@synthesize currentStation, currentStationProperty, stationList;
 
-- (void)parseXMLFileAtURL:(NSURL *)URL parseError:(NSError **)error {
+- (NSMutableArray *)parseXMLFileAtURL:(NSURL *)URL parseError:(NSError **)error {
 
 	NSXMLParser *parser = [[NSXMLParser alloc] initWithContentsOfURL:URL];
-
+	stationList = [[NSMutableArray alloc] init];
+	
 	// Set self as the delegate of the parser so that it will receive the parser delegate methods callbacks.
 	[parser setDelegate:self];
 
@@ -35,6 +36,8 @@
 	}
 
 	[parser release];
+	
+	return stationList;
 }
 
 - (void)parser:(NSXMLParser *)parser didStartElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName attributes:(NSDictionary *)attributeDict {
@@ -45,36 +48,43 @@
 
 	// If we're on a new station create a new Station object and add it to the list
 	if( [elementName isEqualToString:@"station"] ) {
-		
+		currentStation = [[Station alloc] init];
+		[stationList addObject:currentStation];
 		return;
 	}
 
-	
-	if( [elementName isEqualToString:@"name"] ) {
-		
+	// If we're on a node we care about initialize the currentStationProperty, set it to nil otherwise
+	if( [elementName isEqualToString:@"name"] || [elementName isEqualToString:@"marketCity"] || [elementName isEqualToString:@"signal"] || [elementName isEqualToString:@"frequency"] ) {
+		currentStationProperty = [NSMutableString string];
 	}
-	if( [elementName isEqualToString:@"marketCity"] ) {
-		
+	else {
+		currentStationProperty = nil;
 	}
-	if( [elementName isEqualToString:@"signal"] ) {
-		
-	}
-	if( [elementName isEqualToString:@"frequency"] ) {
-		
-	}
-	
-	// check and see what element we're working with
-	// if it's a new station element, create a new Station and add it to the controllers list
-	// if it's something we care about set the currentStationProperty to a new NSMutableString
-	// if it's not something we care about set the currentStationProperty to nil
 }
 
 - (void)parser:(NSXMLParser *)parser didEndElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName {
-
+	
+	if( [elementName isEqualToString:@"name"] ) {
+		currentStation.name = currentStationProperty;
+	}
+	else if( [elementName isEqualToString:@"marketCity"] ) {
+		currentStation.marketCity = currentStationProperty;
+	}
+	else if( [elementName isEqualToString:@"signal"] ) {
+		currentStation.signal = currentStationProperty;
+	}
+	else if( [elementName isEqualToString:@"frequency"] ) {
+		currentStation.frequency = currentStationProperty;
+	}	
+	
 }
 
 - (void)parser:(NSXMLParser *)parser foundCharacters:(NSString *)string {
-
+	
+	if (currentStationProperty) {
+		[currentStationProperty appendString:string];
+	}
+	
 }
 
 @end

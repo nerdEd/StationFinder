@@ -14,12 +14,13 @@
 	@private
 		Station *currentStation;
 		NSMutableString *currentStationProperty;
-	
+		NSMutableArray *stationList;
 }
 
 @property (nonatomic, retain) Station *currentStation;
 @property (nonatomic, retain) NSMutableString *currentStationProperty;
+@property (nonatomic, retain) NSMutableArray *stationList;
 
-- (void)parseXMLFileAtURL:(NSURL *)URL parseError:(NSError **)error;
+- (NSMutableArray *)parseXMLFileAtURL:(NSURL *)URL parseError:(NSError **)error;
 
 @end
