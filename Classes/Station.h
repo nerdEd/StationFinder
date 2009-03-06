@@ -18,4 +18,6 @@
 @property(nonatomic, retain) NSString *signal;
 @property(nonatomic, retain) NSString *frequency;
 
+-(NSString *)displayValue;
+
 @end

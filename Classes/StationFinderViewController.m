@@ -10,7 +10,7 @@
 
 @implementation StationFinderViewController
 
-@synthesize stationList;
+@synthesize stationTableView, stationList;
 
 // Upon loading the view we want to immediately determine the users location and build a station list
 - (void)viewDidLoad {
@@ -36,23 +36,36 @@
 	NSLog(apiEndpointString);
 	stationList = [stationXmlReader parseXMLFileAtURL:[NSURL URLWithString: apiEndpointString] parseError:&parseError];
 	
-	// Put locations into TableView
-	
 	[activitySpinner setHidden:YES];
 	
-	// Show table view	
+	[stationTableView reloadData];
+	[stationTableView setHidden:NO];
 } 
 
 - (void)locationManager:(CLLocationManager *)manager didFailWithError:(NSError *) error {
 }
 
-- (void) addStation:(Station *)station {
-	[stationList addObject:station];
-}
-
 // The application only makes sense in portrait view
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
 	return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+
+- (NSInteger) tableView: (UITableView *) tableView numberOfRowsInSection: (NSInteger *) section {
+	return [stationList count];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath { 
+	
+	static NSString *CellIdentifier = @"Station"; 
+	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier]; 
+	
+	if (cell == nil) { 
+		cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:CellIdentifier] autorelease]; 
+	} 
+	
+	Station *currentStation = [stationList objectAtIndex:indexPath.row];
+	cell.text = [currentStation displayValue]; 
+	return cell; 
 }
 
 

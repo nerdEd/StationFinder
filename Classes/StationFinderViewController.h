@@ -11,14 +11,16 @@
 #import "Station.h"
 #import "StationXmlReader.h"
 
-@interface StationFinderViewController : UIViewController <CLLocationManagerDelegate> {
+@interface StationFinderViewController : UIViewController <CLLocationManagerDelegate, UITableViewDataSource> {
 	IBOutlet UIActivityIndicatorView *activitySpinner;
+	IBOutlet UITableView *stationTableView;
+
 	CLLocationManager *locationManager;
 	NSMutableArray *stationList;
 }
 
 @property(nonatomic, retain) NSMutableArray *stationList;
+@property(nonatomic, retain) UITableView *stationTableView;
 
-- (void) addStation:(Station *)station;
 @end
 
