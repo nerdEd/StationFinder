@@ -48,7 +48,6 @@
 		AF3638A60F66F2ED005D210F /* RunIPhoneUnitTest.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = RunIPhoneUnitTest.sh; sourceTree = "<group>"; };
 		AF3638AD0F66F30F005D210F /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF3638AF0F66F30F005D210F /* Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test-Info.plist"; sourceTree = "<group>"; };
-		AF3638C10F66F385005D210F /* Testing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Testing-Info.plist"; sourceTree = "<group>"; };
 		AF3C35E70F5742B20007C667 /* Station.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Station.h; sourceTree = "<group>"; };
 		AF3C35E80F5742B20007C667 /* Station.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Station.m; sourceTree = "<group>"; };
 		AFFDFAB60F5EEF0300CF312B /* StationXmlReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationXmlReader.h; sourceTree = "<group>"; };
@@ -113,7 +112,6 @@
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 				AF3638AF0F66F30F005D210F /* Test-Info.plist */,
-				AF3638C10F66F385005D210F /* Testing-Info.plist */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";

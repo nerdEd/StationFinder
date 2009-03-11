@@ -18,6 +18,9 @@
 @property(nonatomic, retain) NSString *signal;
 @property(nonatomic, retain) NSString *frequency;
 
+/**
+ * Returns a string representation of this Station suitable for display in a table cell
+ */
 -(NSString *)displayValue;
 
 @end
