@@ -14,6 +14,7 @@
 @interface StationFinderViewController : UIViewController <CLLocationManagerDelegate, UITableViewDataSource> {
 	IBOutlet UIActivityIndicatorView *activitySpinner;
 	IBOutlet UITableView *stationTableView;
+	IBOutlet UILabel *label;
 
 	CLLocationManager *locationManager;
 	NSMutableArray *stationList;
@@ -21,6 +22,7 @@
 
 @property(nonatomic, retain) NSMutableArray *stationList;
 @property(nonatomic, retain) UITableView *stationTableView;
+@property(nonatomic, retain) UILabel *label;
 
 @end
 

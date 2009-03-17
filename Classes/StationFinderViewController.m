@@ -37,6 +37,7 @@
 	stationList = [stationXmlReader parseXMLFileAtURL:[NSURL URLWithString: apiEndpointString] parseError:&parseError];
 	
 	[activitySpinner setHidden:YES];
+	[label setHidden:YES];
 	
 	[stationTableView reloadData];
 	[stationTableView setHidden:NO];
