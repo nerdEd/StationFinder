@@ -8,15 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@class StationFinderViewController;
+@class StationLoadingViewController;
 
 @interface StationFinderAppDelegate : NSObject <UIApplicationDelegate> {
 	IBOutlet UIWindow *window;
-	IBOutlet StationFinderViewController *viewController;
+	IBOutlet StationLoadingViewController *viewController;
 }
 
 @property (nonatomic, retain) UIWindow *window;
-@property (nonatomic, retain) StationFinderViewController *viewController;
+@property (nonatomic, retain) StationLoadingViewController *viewController;
 
 @end
 

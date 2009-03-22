@@ -7,7 +7,7 @@
 //
 
 #import "StationFinderAppDelegate.h"
-#import "StationFinderViewController.h"
+#import "StationLoadingViewController.h"
 
 @implementation StationFinderAppDelegate
 
