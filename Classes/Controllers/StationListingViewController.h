@@ -10,12 +10,10 @@
 #import "Station.h"
 
 @interface StationListingViewController : UIViewController {
-	IBOutlet UITableView *stationTableView;
 	NSMutableArray *stationList;
 }
 
 @property(nonatomic, retain) NSMutableArray *stationList;
-@property(nonatomic, retain) UITableView *stationTableView;
 
 @end
 

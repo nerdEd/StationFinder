@@ -10,7 +10,7 @@
 
 @implementation StationListingViewController
 
-@synthesize stationTableView, stationList;
+@synthesize stationList;
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
 	return (interfaceOrientation == UIInterfaceOrientationPortrait);
