@@ -25,14 +25,16 @@
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation { 	
 	
-	[locationManager stopUpdatingLocation];
-	
 	StationXmlReader *stationXmlReader = [[StationXmlReader alloc] init];
+	
+	[locationManager stopUpdatingLocation];
 	
 	NSError *parseError = nil;
 	NSString *apiEndpointString = [NSString stringWithFormat: @"http://api.npr.org/stations?lat=%1.2f&lon=%1.2f&apiKey=MDAzMTMxODQ4MDEyMzU2ODI5MjQzNjE3NA001", newLocation.coordinate.latitude, newLocation.coordinate.longitude];
-	NSLog(apiEndpointString);
+	
 	stationList = [stationXmlReader parseXMLFileAtURL:[NSURL URLWithString: apiEndpointString] parseError:&parseError];
+	
+	[stationXmlReader dealloc];
 	
 	// Load station listing view to display local stations
 	stationListingViewController.stationList = stationList;	
