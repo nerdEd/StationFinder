@@ -21,12 +21,11 @@
 		AF3638C90F66F39E005D210F /* GTMSenTestCase.h in Sources */ = {isa = PBXBuildFile; fileRef = AF3638A40F66F2ED005D210F /* GTMSenTestCase.h */; };
 		AF3638CA0F66F39E005D210F /* GTMSenTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3638A50F66F2ED005D210F /* GTMSenTestCase.m */; };
 		AF3C35E90F5742B20007C667 /* Station.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3C35E80F5742B20007C667 /* Station.m */; };
-		AFAD523F0F700E6500626BBF /* radio.gif in Resources */ = {isa = PBXBuildFile; fileRef = AFAD523E0F700E6500626BBF /* radio.gif */; };
 		AFFDFAB80F5EEF0300CF312B /* StationXmlReader.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFDFAB70F5EEF0300CF312B /* StationXmlReader.m */; };
 		D309B6FC0F76908E009E29A2 /* StationLoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D309B6FB0F76908E009E29A2 /* StationLoadingViewController.m */; };
-		D30A667E0F6F4EC0005FEAD6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D30A667D0F6F4EC0005FEAD6 /* Default.png */; };
 		D31BC1800F75AB3D005DE40E /* StationLoadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D31BC17F0F75AB3D005DE40E /* StationLoadingViewController.xib */; };
-		D34773430F6F44ED00E82355 /* radio.png in Resources */ = {isa = PBXBuildFile; fileRef = D34773420F6F44ED00E82355 /* radio.png */; };
+		D363E5BB0F8964D7005A3CE1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D363E5BA0F8964D7005A3CE1 /* Default.png */; };
+		D363E5C40F896603005A3CE1 /* radio.png in Resources */ = {isa = PBXBuildFile; fileRef = D363E5C30F896603005A3CE1 /* radio.png */; };
 		D39066B10F60A3A60084EF32 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39066B00F60A3A60084EF32 /* CoreGraphics.framework */; };
 		D3A29E4A0F5F8A240021E1B6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3A29E490F5F8A240021E1B6 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
@@ -55,14 +54,13 @@
 		AF3638AF0F66F30F005D210F /* Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test-Info.plist"; sourceTree = "<group>"; };
 		AF3C35E70F5742B20007C667 /* Station.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Station.h; sourceTree = "<group>"; };
 		AF3C35E80F5742B20007C667 /* Station.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Station.m; sourceTree = "<group>"; };
-		AFAD523E0F700E6500626BBF /* radio.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = radio.gif; sourceTree = "<group>"; };
 		AFFDFAB60F5EEF0300CF312B /* StationXmlReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationXmlReader.h; sourceTree = "<group>"; };
 		AFFDFAB70F5EEF0300CF312B /* StationXmlReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationXmlReader.m; sourceTree = "<group>"; };
 		D309B6FA0F76908E009E29A2 /* StationLoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationLoadingViewController.h; sourceTree = "<group>"; };
 		D309B6FB0F76908E009E29A2 /* StationLoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationLoadingViewController.m; sourceTree = "<group>"; };
-		D30A667D0F6F4EC0005FEAD6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		D31BC17F0F75AB3D005DE40E /* StationLoadingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StationLoadingViewController.xib; sourceTree = "<group>"; };
-		D34773420F6F44ED00E82355 /* radio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio.png; sourceTree = "<group>"; };
+		D363E5BA0F8964D7005A3CE1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D363E5C30F896603005A3CE1 /* radio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio.png; sourceTree = "<group>"; };
 		D39066B00F60A3A60084EF32 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		D3A29E490F5F8A240021E1B6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -135,9 +133,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				AFAD523E0F700E6500626BBF /* radio.gif */,
-				D30A667D0F6F4EC0005FEAD6 /* Default.png */,
-				D34773420F6F44ED00E82355 /* radio.png */,
+				D363E5C30F896603005A3CE1 /* radio.png */,
+				D363E5BA0F8964D7005A3CE1 /* Default.png */,
 				D31BC17F0F75AB3D005DE40E /* StationLoadingViewController.xib */,
 				2899E5210DE3E06400AC0155 /* StationListingViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
@@ -256,10 +253,9 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* StationListingViewController.xib in Resources */,
-				D34773430F6F44ED00E82355 /* radio.png in Resources */,
-				D30A667E0F6F4EC0005FEAD6 /* Default.png in Resources */,
-				AFAD523F0F700E6500626BBF /* radio.gif in Resources */,
 				D31BC1800F75AB3D005DE40E /* StationLoadingViewController.xib in Resources */,
+				D363E5BB0F8964D7005A3CE1 /* Default.png in Resources */,
+				D363E5C40F896603005A3CE1 /* radio.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
