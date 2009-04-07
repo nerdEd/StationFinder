@@ -13,10 +13,4 @@
 
 @synthesize name, marketCity, signal, frequency;
 
--(NSString *) displayValue {
-	
-	NSMutableString *displayValue = [[NSMutableString alloc] init];
-	[displayValue appendFormat: @"%@ %@", frequency, name];
-	return displayValue;
-}
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "StationListingViewController.h"
+#import "StationCell.h"
 
 @implementation StationListingViewController
 
@@ -23,17 +24,34 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath { 
 	
 	static NSString *CellIdentifier = @"Station"; 
-	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier]; 
+	StationCell *cell = (StationCell*) [tableView dequeueReusableCellWithIdentifier:CellIdentifier]; 
 	
 	if (cell == nil) { 
-		cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:CellIdentifier] autorelease]; 
+		cell = [self createNewStationCellFromNib];
 	} 
 	
 	Station *currentStation = [stationList objectAtIndex:indexPath.row];
-	cell.text = [currentStation displayValue]; 
+	cell.nameLabel.text = currentStation.name;
+	cell.frequencyLabel.text = currentStation.frequency;
 	return cell; 
 }
 
+- (StationCell *)createNewStationCellFromNib {
+	NSArray* nibContents = [[NSBundle mainBundle] loadNibNamed:@"StationCell" owner:self options:nil]; 
+	NSEnumerator *nibEnumerator = [nibContents objectEnumerator]; 
+	StationCell* stationCell = nil; 
+	NSObject* nibItem = nil; 
+	while ( (nibItem = [nibEnumerator nextObject]) != nil) { 
+		if ( [nibItem isKindOfClass: [StationCell class]]) { 
+			stationCell = (StationCell*) nibItem; 
+			if ([stationCell.reuseIdentifier isEqualToString: @"Station"]) 
+				break;  
+			else 
+				stationCell = nil; 
+		} 
+	} 
+	return stationCell;
+}
 
 - (void)didReceiveMemoryWarning {
 	[super didReceiveMemoryWarning];

@@ -3,7 +3,7 @@
 //  StationFinder
 //
 //  Created by Ed Schmalzle on 2/26/09.
-//  Copyright 2009 __MyCompanyName__. All rights reserved.
+//  Copyright 2009 nerdEd. All rights reserved.
 //
 
 @interface Station : NSObject {
@@ -17,10 +17,5 @@
 @property(nonatomic, retain) NSString *marketCity;
 @property(nonatomic, retain) NSString *signal;
 @property(nonatomic, retain) NSString *frequency;
-
-/**
- * Returns a string representation of this Station suitable for display in a table cell
- */
--(NSString *)displayValue;
 
 @end

@@ -55,7 +55,7 @@
 
 	// If we're on a node we care about initialize the currentStationProperty, set it to nil otherwise
 	if( [elementName isEqualToString:@"name"] || [elementName isEqualToString:@"marketCity"] || [elementName isEqualToString:@"signal"] || [elementName isEqualToString:@"frequency"] ) {
-		currentStationProperty = [NSMutableString string];
+		currentStationProperty = [NSMutableString string];		
 	}
 	else {
 		currentStationProperty = nil;
@@ -65,17 +65,17 @@
 - (void)parser:(NSXMLParser *)parser didEndElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName {
 	
 	if( [elementName isEqualToString:@"name"] ) {
-		currentStation.name = currentStationProperty;
+		currentStation.name = [currentStationProperty stringByTrimmingCharactersInSet: [NSCharacterSet whitespaceAndNewlineCharacterSet]];
 	}
 	else if( [elementName isEqualToString:@"marketCity"] ) {
-		currentStation.marketCity = currentStationProperty;
+		currentStation.marketCity = [currentStationProperty stringByTrimmingCharactersInSet: [NSCharacterSet whitespaceAndNewlineCharacterSet]];
 	}
 	else if( [elementName isEqualToString:@"signal"] ) {
-		currentStation.signal = currentStationProperty;
+		currentStation.signal = [currentStationProperty stringByTrimmingCharactersInSet: [NSCharacterSet whitespaceAndNewlineCharacterSet]];
 	}
 	else if( [elementName isEqualToString:@"frequency"] ) {
-		currentStation.frequency = currentStationProperty;
-	}	
+		currentStation.frequency = [currentStationProperty stringByTrimmingCharactersInSet: [NSCharacterSet whitespaceAndNewlineCharacterSet]];
+	}
 	
 }
 
