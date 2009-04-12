@@ -14,11 +14,15 @@
 
 @interface StationLoadingViewController : UIViewController <CLLocationManagerDelegate> {
 	IBOutlet StationListingViewController *stationListingViewController;
+	IBOutlet UIImageView *radioImage;
 	
 	CLLocationManager *locationManager;
-	NSMutableArray *stationList;
+	NSMutableArray *stationList;		
 }
 
 @property(nonatomic, retain) StationListingViewController *stationListingViewController;
+@property(nonatomic, retain) UIImageView *radioImage;
+
+-(void)animateRadio;
 
 @end

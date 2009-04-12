@@ -11,9 +11,12 @@
 
 @implementation StationLoadingViewController
 
-@synthesize stationListingViewController;
+@synthesize stationListingViewController, radioImage;
 
 - (void)viewDidLoad {
+	
+	// Animate radio image
+	[self animateRadio];
 	
 	// Get users location
 	locationManager = [[CLLocationManager alloc] init]; 
@@ -44,6 +47,23 @@
 } 
 
 - (void)locationManager:(CLLocationManager *)manager didFailWithError:(NSError *) error {
+}
+
+- (void)animateRadio {
+	
+	NSMutableArray *radioAnimationArray = [[NSMutableArray alloc] init];
+		
+	for( int i = 1; i < 41; i++ ) {
+		[radioAnimationArray addObject: [UIImage imageNamed: [NSString stringWithFormat:@"radio-%i.png", i]]];
+	}
+	
+	for( int i = 40; i > 0; i-- ) {
+		[radioAnimationArray addObject: [UIImage imageNamed: [NSString stringWithFormat:@"radio-%i.png", i]]];
+	}
+	
+	radioImage.animationImages = radioAnimationArray;
+	radioImage.animationDuration = 7;
+	[radioImage startAnimating];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {

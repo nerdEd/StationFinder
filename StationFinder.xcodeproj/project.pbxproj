@@ -24,11 +24,51 @@
 		AFFDFAB80F5EEF0300CF312B /* StationXmlReader.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFDFAB70F5EEF0300CF312B /* StationXmlReader.m */; };
 		D309B6FC0F76908E009E29A2 /* StationLoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D309B6FB0F76908E009E29A2 /* StationLoadingViewController.m */; };
 		D31BC1800F75AB3D005DE40E /* StationLoadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D31BC17F0F75AB3D005DE40E /* StationLoadingViewController.xib */; };
+		D336232E0F92618D00AA0C32 /* StationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D336232D0F92618D00AA0C32 /* StationCell.m */; };
+		D33623670F92640900AA0C32 /* radio-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D336233F0F92640800AA0C32 /* radio-1.png */; };
+		D33623680F92640900AA0C32 /* radio-10.png in Resources */ = {isa = PBXBuildFile; fileRef = D33623400F92640800AA0C32 /* radio-10.png */; };
+		D33623690F92640900AA0C32 /* radio-11.png in Resources */ = {isa = PBXBuildFile; fileRef = D33623410F92640800AA0C32 /* radio-11.png */; };
+		D336236A0F92640900AA0C32 /* radio-12.png in Resources */ = {isa = PBXBuildFile; fileRef = D33623420F92640800AA0C32 /* radio-12.png */; };
+		D336236B0F92640900AA0C32 /* radio-13.png in Resources */ = {isa = PBXBuildFile; fileRef = D33623430F92640800AA0C32 /* radio-13.png */; };
+		D336236C0F92640900AA0C32 /* radio-14.png in Resources */ = {isa = PBXBuildFile; fileRef = D33623440F92640800AA0C32 /* radio-14.png */; };
+		D336236D0F92640900AA0C32 /* radio-15.png in Resources */ = {isa = PBXBuildFile; fileRef = D33623450F92640800AA0C32 /* radio-15.png */; };
+		D336236E0F92640900AA0C32 /* radio-16.png in Resources */ = {isa = PBXBuildFile; fileRef = D33623460F92640800AA0C32 /* radio-16.png */; };
+		D336236F0F92640900AA0C32 /* radio-17.png in Resources */ = {isa = PBXBuildFile; fileRef = D33623470F92640800AA0C32 /* radio-17.png */; };
+		D33623700F92640900AA0C32 /* radio-18.png in Resources */ = {isa = PBXBuildFile; fileRef = D33623480F92640800AA0C32 /* radio-18.png */; };
+		D33623710F92640900AA0C32 /* radio-19.png in Resources */ = {isa = PBXBuildFile; fileRef = D33623490F92640800AA0C32 /* radio-19.png */; };
+		D33623720F92640900AA0C32 /* radio-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D336234A0F92640800AA0C32 /* radio-2.png */; };
+		D33623730F92640900AA0C32 /* radio-20.png in Resources */ = {isa = PBXBuildFile; fileRef = D336234B0F92640800AA0C32 /* radio-20.png */; };
+		D33623740F92640900AA0C32 /* radio-21.png in Resources */ = {isa = PBXBuildFile; fileRef = D336234C0F92640800AA0C32 /* radio-21.png */; };
+		D33623750F92640900AA0C32 /* radio-22.png in Resources */ = {isa = PBXBuildFile; fileRef = D336234D0F92640800AA0C32 /* radio-22.png */; };
+		D33623760F92640900AA0C32 /* radio-23.png in Resources */ = {isa = PBXBuildFile; fileRef = D336234E0F92640800AA0C32 /* radio-23.png */; };
+		D33623770F92640900AA0C32 /* radio-24.png in Resources */ = {isa = PBXBuildFile; fileRef = D336234F0F92640800AA0C32 /* radio-24.png */; };
+		D33623780F92640900AA0C32 /* radio-25.png in Resources */ = {isa = PBXBuildFile; fileRef = D33623500F92640800AA0C32 /* radio-25.png */; };
+		D33623790F92640900AA0C32 /* radio-26.png in Resources */ = {isa = PBXBuildFile; fileRef = D33623510F92640800AA0C32 /* radio-26.png */; };
+		D336237A0F92640900AA0C32 /* radio-27.png in Resources */ = {isa = PBXBuildFile; fileRef = D33623520F92640800AA0C32 /* radio-27.png */; };
+		D336237B0F92640900AA0C32 /* radio-28.png in Resources */ = {isa = PBXBuildFile; fileRef = D33623530F92640800AA0C32 /* radio-28.png */; };
+		D336237C0F92640900AA0C32 /* radio-29.png in Resources */ = {isa = PBXBuildFile; fileRef = D33623540F92640800AA0C32 /* radio-29.png */; };
+		D336237D0F92640900AA0C32 /* radio-3.png in Resources */ = {isa = PBXBuildFile; fileRef = D33623550F92640800AA0C32 /* radio-3.png */; };
+		D336237E0F92640900AA0C32 /* radio-30.png in Resources */ = {isa = PBXBuildFile; fileRef = D33623560F92640800AA0C32 /* radio-30.png */; };
+		D336237F0F92640900AA0C32 /* radio-31.png in Resources */ = {isa = PBXBuildFile; fileRef = D33623570F92640800AA0C32 /* radio-31.png */; };
+		D33623800F92640900AA0C32 /* radio-32.png in Resources */ = {isa = PBXBuildFile; fileRef = D33623580F92640800AA0C32 /* radio-32.png */; };
+		D33623810F92640900AA0C32 /* radio-33.png in Resources */ = {isa = PBXBuildFile; fileRef = D33623590F92640800AA0C32 /* radio-33.png */; };
+		D33623820F92640900AA0C32 /* radio-34.png in Resources */ = {isa = PBXBuildFile; fileRef = D336235A0F92640800AA0C32 /* radio-34.png */; };
+		D33623830F92640900AA0C32 /* radio-35.png in Resources */ = {isa = PBXBuildFile; fileRef = D336235B0F92640800AA0C32 /* radio-35.png */; };
+		D33623840F92640900AA0C32 /* radio-36.png in Resources */ = {isa = PBXBuildFile; fileRef = D336235C0F92640800AA0C32 /* radio-36.png */; };
+		D33623850F92640900AA0C32 /* radio-37.png in Resources */ = {isa = PBXBuildFile; fileRef = D336235D0F92640800AA0C32 /* radio-37.png */; };
+		D33623860F92640900AA0C32 /* radio-38.png in Resources */ = {isa = PBXBuildFile; fileRef = D336235E0F92640800AA0C32 /* radio-38.png */; };
+		D33623870F92640900AA0C32 /* radio-39.png in Resources */ = {isa = PBXBuildFile; fileRef = D336235F0F92640800AA0C32 /* radio-39.png */; };
+		D33623880F92640900AA0C32 /* radio-4.png in Resources */ = {isa = PBXBuildFile; fileRef = D33623600F92640800AA0C32 /* radio-4.png */; };
+		D33623890F92640900AA0C32 /* radio-40.png in Resources */ = {isa = PBXBuildFile; fileRef = D33623610F92640900AA0C32 /* radio-40.png */; };
+		D336238A0F92640900AA0C32 /* radio-5.png in Resources */ = {isa = PBXBuildFile; fileRef = D33623620F92640900AA0C32 /* radio-5.png */; };
+		D336238B0F92640900AA0C32 /* radio-6.png in Resources */ = {isa = PBXBuildFile; fileRef = D33623630F92640900AA0C32 /* radio-6.png */; };
+		D336238C0F92640900AA0C32 /* radio-7.png in Resources */ = {isa = PBXBuildFile; fileRef = D33623640F92640900AA0C32 /* radio-7.png */; };
+		D336238D0F92640900AA0C32 /* radio-8.png in Resources */ = {isa = PBXBuildFile; fileRef = D33623650F92640900AA0C32 /* radio-8.png */; };
+		D336238E0F92640900AA0C32 /* radio-9.png in Resources */ = {isa = PBXBuildFile; fileRef = D33623660F92640900AA0C32 /* radio-9.png */; };
 		D363E5BB0F8964D7005A3CE1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D363E5BA0F8964D7005A3CE1 /* Default.png */; };
 		D363E5C40F896603005A3CE1 /* radio.png in Resources */ = {isa = PBXBuildFile; fileRef = D363E5C30F896603005A3CE1 /* radio.png */; };
 		D39066B10F60A3A60084EF32 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39066B00F60A3A60084EF32 /* CoreGraphics.framework */; };
 		D3A29E4A0F5F8A240021E1B6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3A29E490F5F8A240021E1B6 /* CoreLocation.framework */; };
-		D3E4D2060F8AE01900D6E6B7 /* StationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E4D2050F8AE01900D6E6B7 /* StationCell.m */; };
 		D3E4D2080F8AE55500D6E6B7 /* StationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3E4D2070F8AE55500D6E6B7 /* StationCell.xib */; };
 /* End PBXBuildFile section */
 
@@ -61,12 +101,52 @@
 		D309B6FA0F76908E009E29A2 /* StationLoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationLoadingViewController.h; sourceTree = "<group>"; };
 		D309B6FB0F76908E009E29A2 /* StationLoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationLoadingViewController.m; sourceTree = "<group>"; };
 		D31BC17F0F75AB3D005DE40E /* StationLoadingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StationLoadingViewController.xib; sourceTree = "<group>"; };
+		D336232C0F92618D00AA0C32 /* StationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationCell.h; sourceTree = "<group>"; };
+		D336232D0F92618D00AA0C32 /* StationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationCell.m; sourceTree = "<group>"; };
+		D336233F0F92640800AA0C32 /* radio-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-1.png"; sourceTree = "<group>"; };
+		D33623400F92640800AA0C32 /* radio-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-10.png"; sourceTree = "<group>"; };
+		D33623410F92640800AA0C32 /* radio-11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-11.png"; sourceTree = "<group>"; };
+		D33623420F92640800AA0C32 /* radio-12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-12.png"; sourceTree = "<group>"; };
+		D33623430F92640800AA0C32 /* radio-13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-13.png"; sourceTree = "<group>"; };
+		D33623440F92640800AA0C32 /* radio-14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-14.png"; sourceTree = "<group>"; };
+		D33623450F92640800AA0C32 /* radio-15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-15.png"; sourceTree = "<group>"; };
+		D33623460F92640800AA0C32 /* radio-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-16.png"; sourceTree = "<group>"; };
+		D33623470F92640800AA0C32 /* radio-17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-17.png"; sourceTree = "<group>"; };
+		D33623480F92640800AA0C32 /* radio-18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-18.png"; sourceTree = "<group>"; };
+		D33623490F92640800AA0C32 /* radio-19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-19.png"; sourceTree = "<group>"; };
+		D336234A0F92640800AA0C32 /* radio-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-2.png"; sourceTree = "<group>"; };
+		D336234B0F92640800AA0C32 /* radio-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-20.png"; sourceTree = "<group>"; };
+		D336234C0F92640800AA0C32 /* radio-21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-21.png"; sourceTree = "<group>"; };
+		D336234D0F92640800AA0C32 /* radio-22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-22.png"; sourceTree = "<group>"; };
+		D336234E0F92640800AA0C32 /* radio-23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-23.png"; sourceTree = "<group>"; };
+		D336234F0F92640800AA0C32 /* radio-24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-24.png"; sourceTree = "<group>"; };
+		D33623500F92640800AA0C32 /* radio-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-25.png"; sourceTree = "<group>"; };
+		D33623510F92640800AA0C32 /* radio-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-26.png"; sourceTree = "<group>"; };
+		D33623520F92640800AA0C32 /* radio-27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-27.png"; sourceTree = "<group>"; };
+		D33623530F92640800AA0C32 /* radio-28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-28.png"; sourceTree = "<group>"; };
+		D33623540F92640800AA0C32 /* radio-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-29.png"; sourceTree = "<group>"; };
+		D33623550F92640800AA0C32 /* radio-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-3.png"; sourceTree = "<group>"; };
+		D33623560F92640800AA0C32 /* radio-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-30.png"; sourceTree = "<group>"; };
+		D33623570F92640800AA0C32 /* radio-31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-31.png"; sourceTree = "<group>"; };
+		D33623580F92640800AA0C32 /* radio-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-32.png"; sourceTree = "<group>"; };
+		D33623590F92640800AA0C32 /* radio-33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-33.png"; sourceTree = "<group>"; };
+		D336235A0F92640800AA0C32 /* radio-34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-34.png"; sourceTree = "<group>"; };
+		D336235B0F92640800AA0C32 /* radio-35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-35.png"; sourceTree = "<group>"; };
+		D336235C0F92640800AA0C32 /* radio-36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-36.png"; sourceTree = "<group>"; };
+		D336235D0F92640800AA0C32 /* radio-37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-37.png"; sourceTree = "<group>"; };
+		D336235E0F92640800AA0C32 /* radio-38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-38.png"; sourceTree = "<group>"; };
+		D336235F0F92640800AA0C32 /* radio-39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-39.png"; sourceTree = "<group>"; };
+		D33623600F92640800AA0C32 /* radio-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-4.png"; sourceTree = "<group>"; };
+		D33623610F92640900AA0C32 /* radio-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-40.png"; sourceTree = "<group>"; };
+		D33623620F92640900AA0C32 /* radio-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-5.png"; sourceTree = "<group>"; };
+		D33623630F92640900AA0C32 /* radio-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-6.png"; sourceTree = "<group>"; };
+		D33623640F92640900AA0C32 /* radio-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-7.png"; sourceTree = "<group>"; };
+		D33623650F92640900AA0C32 /* radio-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-8.png"; sourceTree = "<group>"; };
+		D33623660F92640900AA0C32 /* radio-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-9.png"; sourceTree = "<group>"; };
 		D363E5BA0F8964D7005A3CE1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		D363E5C30F896603005A3CE1 /* radio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio.png; sourceTree = "<group>"; };
 		D39066B00F60A3A60084EF32 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		D3A29E490F5F8A240021E1B6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		D3E4D2040F8AE01900D6E6B7 /* StationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationCell.h; sourceTree = "<group>"; };
-		D3E4D2050F8AE01900D6E6B7 /* StationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationCell.m; sourceTree = "<group>"; };
 		D3E4D2070F8AE55500D6E6B7 /* StationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StationCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,12 +175,11 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D336231B0F92614F00AA0C32 /* Views */,
 				D309B7150F76919A009E29A2 /* Controllers */,
 				D309B70D0F769110009E29A2 /* Models */,
 				AFFDFAB60F5EEF0300CF312B /* StationXmlReader.h */,
 				AFFDFAB70F5EEF0300CF312B /* StationXmlReader.m */,
-				D3E4D2040F8AE01900D6E6B7 /* StationCell.h */,
-				D3E4D2050F8AE01900D6E6B7 /* StationCell.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -140,6 +219,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D336233E0F92640800AA0C32 /* AnimationSteps */,
 				D363E5C30F896603005A3CE1 /* radio.png */,
 				D363E5BA0F8964D7005A3CE1 /* Default.png */,
 				D31BC17F0F75AB3D005DE40E /* StationLoadingViewController.xib */,
@@ -196,6 +276,63 @@
 				1D3623250D0F684500981E51 /* StationFinderAppDelegate.m */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D336231B0F92614F00AA0C32 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D336232C0F92618D00AA0C32 /* StationCell.h */,
+				D336232D0F92618D00AA0C32 /* StationCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D336233E0F92640800AA0C32 /* AnimationSteps */ = {
+			isa = PBXGroup;
+			children = (
+				D336233F0F92640800AA0C32 /* radio-1.png */,
+				D33623400F92640800AA0C32 /* radio-10.png */,
+				D33623410F92640800AA0C32 /* radio-11.png */,
+				D33623420F92640800AA0C32 /* radio-12.png */,
+				D33623430F92640800AA0C32 /* radio-13.png */,
+				D33623440F92640800AA0C32 /* radio-14.png */,
+				D33623450F92640800AA0C32 /* radio-15.png */,
+				D33623460F92640800AA0C32 /* radio-16.png */,
+				D33623470F92640800AA0C32 /* radio-17.png */,
+				D33623480F92640800AA0C32 /* radio-18.png */,
+				D33623490F92640800AA0C32 /* radio-19.png */,
+				D336234A0F92640800AA0C32 /* radio-2.png */,
+				D336234B0F92640800AA0C32 /* radio-20.png */,
+				D336234C0F92640800AA0C32 /* radio-21.png */,
+				D336234D0F92640800AA0C32 /* radio-22.png */,
+				D336234E0F92640800AA0C32 /* radio-23.png */,
+				D336234F0F92640800AA0C32 /* radio-24.png */,
+				D33623500F92640800AA0C32 /* radio-25.png */,
+				D33623510F92640800AA0C32 /* radio-26.png */,
+				D33623520F92640800AA0C32 /* radio-27.png */,
+				D33623530F92640800AA0C32 /* radio-28.png */,
+				D33623540F92640800AA0C32 /* radio-29.png */,
+				D33623550F92640800AA0C32 /* radio-3.png */,
+				D33623560F92640800AA0C32 /* radio-30.png */,
+				D33623570F92640800AA0C32 /* radio-31.png */,
+				D33623580F92640800AA0C32 /* radio-32.png */,
+				D33623590F92640800AA0C32 /* radio-33.png */,
+				D336235A0F92640800AA0C32 /* radio-34.png */,
+				D336235B0F92640800AA0C32 /* radio-35.png */,
+				D336235C0F92640800AA0C32 /* radio-36.png */,
+				D336235D0F92640800AA0C32 /* radio-37.png */,
+				D336235E0F92640800AA0C32 /* radio-38.png */,
+				D336235F0F92640800AA0C32 /* radio-39.png */,
+				D33623600F92640800AA0C32 /* radio-4.png */,
+				D33623610F92640900AA0C32 /* radio-40.png */,
+				D33623620F92640900AA0C32 /* radio-5.png */,
+				D33623630F92640900AA0C32 /* radio-6.png */,
+				D33623640F92640900AA0C32 /* radio-7.png */,
+				D33623650F92640900AA0C32 /* radio-8.png */,
+				D33623660F92640900AA0C32 /* radio-9.png */,
+			);
+			name = AnimationSteps;
+			path = RadioGraphics/AnimationSteps;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +402,46 @@
 				D363E5BB0F8964D7005A3CE1 /* Default.png in Resources */,
 				D363E5C40F896603005A3CE1 /* radio.png in Resources */,
 				D3E4D2080F8AE55500D6E6B7 /* StationCell.xib in Resources */,
+				D33623670F92640900AA0C32 /* radio-1.png in Resources */,
+				D33623680F92640900AA0C32 /* radio-10.png in Resources */,
+				D33623690F92640900AA0C32 /* radio-11.png in Resources */,
+				D336236A0F92640900AA0C32 /* radio-12.png in Resources */,
+				D336236B0F92640900AA0C32 /* radio-13.png in Resources */,
+				D336236C0F92640900AA0C32 /* radio-14.png in Resources */,
+				D336236D0F92640900AA0C32 /* radio-15.png in Resources */,
+				D336236E0F92640900AA0C32 /* radio-16.png in Resources */,
+				D336236F0F92640900AA0C32 /* radio-17.png in Resources */,
+				D33623700F92640900AA0C32 /* radio-18.png in Resources */,
+				D33623710F92640900AA0C32 /* radio-19.png in Resources */,
+				D33623720F92640900AA0C32 /* radio-2.png in Resources */,
+				D33623730F92640900AA0C32 /* radio-20.png in Resources */,
+				D33623740F92640900AA0C32 /* radio-21.png in Resources */,
+				D33623750F92640900AA0C32 /* radio-22.png in Resources */,
+				D33623760F92640900AA0C32 /* radio-23.png in Resources */,
+				D33623770F92640900AA0C32 /* radio-24.png in Resources */,
+				D33623780F92640900AA0C32 /* radio-25.png in Resources */,
+				D33623790F92640900AA0C32 /* radio-26.png in Resources */,
+				D336237A0F92640900AA0C32 /* radio-27.png in Resources */,
+				D336237B0F92640900AA0C32 /* radio-28.png in Resources */,
+				D336237C0F92640900AA0C32 /* radio-29.png in Resources */,
+				D336237D0F92640900AA0C32 /* radio-3.png in Resources */,
+				D336237E0F92640900AA0C32 /* radio-30.png in Resources */,
+				D336237F0F92640900AA0C32 /* radio-31.png in Resources */,
+				D33623800F92640900AA0C32 /* radio-32.png in Resources */,
+				D33623810F92640900AA0C32 /* radio-33.png in Resources */,
+				D33623820F92640900AA0C32 /* radio-34.png in Resources */,
+				D33623830F92640900AA0C32 /* radio-35.png in Resources */,
+				D33623840F92640900AA0C32 /* radio-36.png in Resources */,
+				D33623850F92640900AA0C32 /* radio-37.png in Resources */,
+				D33623860F92640900AA0C32 /* radio-38.png in Resources */,
+				D33623870F92640900AA0C32 /* radio-39.png in Resources */,
+				D33623880F92640900AA0C32 /* radio-4.png in Resources */,
+				D33623890F92640900AA0C32 /* radio-40.png in Resources */,
+				D336238A0F92640900AA0C32 /* radio-5.png in Resources */,
+				D336238B0F92640900AA0C32 /* radio-6.png in Resources */,
+				D336238C0F92640900AA0C32 /* radio-7.png in Resources */,
+				D336238D0F92640900AA0C32 /* radio-8.png in Resources */,
+				D336238E0F92640900AA0C32 /* radio-9.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +481,7 @@
 				AF3C35E90F5742B20007C667 /* Station.m in Sources */,
 				AFFDFAB80F5EEF0300CF312B /* StationXmlReader.m in Sources */,
 				D309B6FC0F76908E009E29A2 /* StationLoadingViewController.m in Sources */,
-				D3E4D2060F8AE01900D6E6B7 /* StationCell.m in Sources */,
+				D336232E0F92618D00AA0C32 /* StationCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
