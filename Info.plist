@@ -30,7 +30,5 @@
 	<true/>
 	<key>NSMainNibFile</key>
 	<string>MainWindow</string>
-	<key>UIPrerenderedIcon</key>
-	<string>false</string>
 </dict>
 </plist>
