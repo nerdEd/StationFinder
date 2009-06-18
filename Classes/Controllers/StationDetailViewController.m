@@ -11,12 +11,13 @@
 
 @implementation StationDetailViewController
 
-@synthesize station, nameLabel, frequencyLabel, descriptionLabel;
+@synthesize station, nameLabel, frequencyLabel, taglineLabel;
 
 - (void)viewWillAppear: animated {
 	
 	nameLabel.text = station.name;
 	frequencyLabel.text = station.frequency;
+	taglineLabel.text = station.tagline;
 }
 
 - (IBAction)returnToListingView {

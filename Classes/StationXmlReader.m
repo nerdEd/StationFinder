@@ -54,7 +54,7 @@
 	}
 
 	// If we're on a node we care about initialize the currentStationProperty, set it to nil otherwise
-	if( [elementName isEqualToString:@"name"] || [elementName isEqualToString:@"marketCity"] || [elementName isEqualToString:@"signal"] || [elementName isEqualToString:@"frequency"] ) {
+	if( [elementName isEqualToString:@"name"] || [elementName isEqualToString:@"marketCity"] || [elementName isEqualToString:@"signal"] || [elementName isEqualToString:@"frequency"] || [elementName isEqualToString:@"tagline"] ) {
 		currentStationProperty = [NSMutableString string];		
 	}
 	else {
@@ -76,7 +76,9 @@
 	else if( [elementName isEqualToString:@"frequency"] ) {
 		currentStation.frequency = [currentStationProperty stringByTrimmingCharactersInSet: [NSCharacterSet whitespaceAndNewlineCharacterSet]];
 	}
-	
+	else if( [elementName isEqualToString:@"tagline"] ) {
+		currentStation.tagline = [currentStationProperty stringByTrimmingCharactersInSet: [NSCharacterSet whitespaceAndNewlineCharacterSet]];
+	}
 }
 
 - (void)parser:(NSXMLParser *)parser foundCharacters:(NSString *)string {

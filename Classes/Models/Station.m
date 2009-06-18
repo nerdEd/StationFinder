@@ -11,6 +11,6 @@
 
 @implementation Station
 
-@synthesize name, marketCity, signal, frequency;
+@synthesize name, marketCity, signal, frequency, tagline;
 
 @end

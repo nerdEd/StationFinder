@@ -11,11 +11,13 @@
 	NSString *marketCity;
 	NSString *signal;
 	NSString *frequency;
+	NSString *tagline;
 }
 
 @property(nonatomic, retain) NSString *name;
 @property(nonatomic, retain) NSString *marketCity;
 @property(nonatomic, retain) NSString *signal;
 @property(nonatomic, retain) NSString *frequency;
+@property(nonatomic, retain) NSString *tagline;
 
 @end

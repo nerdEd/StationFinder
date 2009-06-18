@@ -13,7 +13,7 @@
 @interface StationDetailViewController : UIViewController {
 	IBOutlet UILabel *nameLabel;
 	IBOutlet UILabel *frequencyLabel;
-	IBOutlet UILabel *descriptionLabel;
+	IBOutlet UILabel *taglineLabel;
 	
 	Station *station;
 }
@@ -21,7 +21,7 @@
 @property(nonatomic, retain) Station *station;
 @property(nonatomic, retain) UILabel *nameLabel;
 @property(nonatomic, retain) UILabel *frequencyLabel;
-@property(nonatomic, retain) UILabel *descriptionLabel;
+@property(nonatomic, retain) UILabel *taglineLabel;
 
 - (IBAction) returnToListingView;
 
