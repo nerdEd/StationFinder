@@ -26,6 +26,7 @@
 	
 	Station *selectedStation = [stationList objectAtIndex:indexPath.row];
 	stationDetailViewController.station = selectedStation;
+	[stationDetailViewController viewWillAppear: YES];
 	[self presentModalViewController:stationDetailViewController animated:YES];
 }
 

@@ -13,12 +13,10 @@
 
 @synthesize station, nameLabel, frequencyLabel, descriptionLabel;
 
-- (void)viewDidLoad {
+- (void)viewWillAppear: animated {
 	
 	nameLabel.text = station.name;
 	frequencyLabel.text = station.frequency;
-	
-    [super viewDidLoad];	
 }
 
 - (IBAction)returnToListingView {
