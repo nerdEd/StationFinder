@@ -24,6 +24,8 @@
 		AFFDFAB80F5EEF0300CF312B /* StationXmlReader.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFDFAB70F5EEF0300CF312B /* StationXmlReader.m */; };
 		D309B6FC0F76908E009E29A2 /* StationLoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D309B6FB0F76908E009E29A2 /* StationLoadingViewController.m */; };
 		D31BC1800F75AB3D005DE40E /* StationLoadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D31BC17F0F75AB3D005DE40E /* StationLoadingViewController.xib */; };
+		D31E12780FB1F4A800B9799F /* StationDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D31E12770FB1F4A800B9799F /* StationDetailViewController.xib */; };
+		D31E127B0FB1F4CD00B9799F /* StationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D31E127A0FB1F4CD00B9799F /* StationDetailViewController.m */; };
 		D336232E0F92618D00AA0C32 /* StationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D336232D0F92618D00AA0C32 /* StationCell.m */; };
 		D33623670F92640900AA0C32 /* radio-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D336233F0F92640800AA0C32 /* radio-1.png */; };
 		D33623680F92640900AA0C32 /* radio-10.png in Resources */ = {isa = PBXBuildFile; fileRef = D33623400F92640800AA0C32 /* radio-10.png */; };
@@ -101,6 +103,9 @@
 		D309B6FA0F76908E009E29A2 /* StationLoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationLoadingViewController.h; sourceTree = "<group>"; };
 		D309B6FB0F76908E009E29A2 /* StationLoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationLoadingViewController.m; sourceTree = "<group>"; };
 		D31BC17F0F75AB3D005DE40E /* StationLoadingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StationLoadingViewController.xib; sourceTree = "<group>"; };
+		D31E12770FB1F4A800B9799F /* StationDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StationDetailViewController.xib; sourceTree = "<group>"; };
+		D31E12790FB1F4CD00B9799F /* StationDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationDetailViewController.h; sourceTree = "<group>"; };
+		D31E127A0FB1F4CD00B9799F /* StationDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationDetailViewController.m; sourceTree = "<group>"; };
 		D336232C0F92618D00AA0C32 /* StationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationCell.h; sourceTree = "<group>"; };
 		D336232D0F92618D00AA0C32 /* StationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationCell.m; sourceTree = "<group>"; };
 		D336233F0F92640800AA0C32 /* radio-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-1.png"; sourceTree = "<group>"; };
@@ -203,6 +208,7 @@
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 				AF3638AF0F66F30F005D210F /* Test-Info.plist */,
+				D31E12770FB1F4A800B9799F /* StationDetailViewController.xib */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -274,6 +280,8 @@
 				D309B6FB0F76908E009E29A2 /* StationLoadingViewController.m */,
 				1D3623240D0F684500981E51 /* StationFinderAppDelegate.h */,
 				1D3623250D0F684500981E51 /* StationFinderAppDelegate.m */,
+				D31E12790FB1F4CD00B9799F /* StationDetailViewController.h */,
+				D31E127A0FB1F4CD00B9799F /* StationDetailViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -442,6 +450,7 @@
 				D336238C0F92640900AA0C32 /* radio-7.png in Resources */,
 				D336238D0F92640900AA0C32 /* radio-8.png in Resources */,
 				D336238E0F92640900AA0C32 /* radio-9.png in Resources */,
+				D31E12780FB1F4A800B9799F /* StationDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +491,7 @@
 				AFFDFAB80F5EEF0300CF312B /* StationXmlReader.m in Sources */,
 				D309B6FC0F76908E009E29A2 /* StationLoadingViewController.m in Sources */,
 				D336232E0F92618D00AA0C32 /* StationCell.m in Sources */,
+				D31E127B0FB1F4CD00B9799F /* StationDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

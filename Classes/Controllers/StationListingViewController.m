@@ -3,15 +3,16 @@
 //  StationFinder
 //
 //  Created by Ed Schmalzle on 2/26/09.
-//  Copyright nerdEd 2009. All rights reserved.
+//  Copyright Ed Schmalzle 2009. All rights reserved.
 //
 
 #import "StationListingViewController.h"
 #import "StationCell.h"
+#import "StationDetailViewController.h"
 
 @implementation StationListingViewController
 
-@synthesize stationList;
+@synthesize stationList, stationDetailViewController;
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
 	return (interfaceOrientation == UIInterfaceOrientationPortrait);
@@ -19,6 +20,13 @@
 
 - (NSInteger) tableView: (UITableView *) tableView numberOfRowsInSection: (NSInteger *) section {
 	return [stationList count];
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath { 
+	
+	Station *selectedStation = [stationList objectAtIndex:indexPath.row];
+	stationDetailViewController.station = selectedStation;
+	[self presentModalViewController:stationDetailViewController animated:YES];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath { 

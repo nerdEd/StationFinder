@@ -24,5 +24,6 @@
 @property(nonatomic, retain) UIImageView *radioImage;
 
 -(void)animateRadio;
+-(void)viewStationDetails;
 
 @end
