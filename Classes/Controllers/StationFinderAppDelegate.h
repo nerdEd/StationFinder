@@ -3,7 +3,7 @@
 //  StationFinder
 //
 //  Created by Ed Schmalzle on 2/26/09.
-//  Copyright nerdEd 2009. All rights reserved.
+//  Copyright Ed Schmalzle 2009. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
