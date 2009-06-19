@@ -13,7 +13,7 @@
 
 @synthesize station, nameLabel, frequencyLabel, taglineLabel;
 
-- (void)viewWillAppear: animated {
+- (void)viewWillAppear: (BOOL)animated {
 	
 	nameLabel.text = station.name;
 	frequencyLabel.text = station.frequency;
