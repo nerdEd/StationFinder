@@ -21,12 +21,4 @@
 	// Run after each test method
 }
 
-- (void)testFail {	
-	GHAssertTrue(NO, nil);
-}
-
-- (void)testBar {
-	// Another test
-}
-
 @end
