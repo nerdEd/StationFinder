@@ -92,6 +92,7 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* StationFinder_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationFinder_Prefix.pch; sourceTree = "<group>"; };
 		640AE5D41100D382002A4597 /* TestStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestStation.m; sourceTree = "<group>"; };
+		640AE6481100E2C3002A4597 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		64546A5C1100C02D000AB949 /* GHAsyncTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHAsyncTestCase.h; sourceTree = "<group>"; };
 		64546A5D1100C02D000AB949 /* GHTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHTest.h; sourceTree = "<group>"; };
 		64546A5E1100C02D000AB949 /* GHTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHTestCase.h; sourceTree = "<group>"; };
@@ -237,6 +238,7 @@
 				19C28FACFE9D520D11CA2CBB /* Products */,
 				D31E12770FB1F4A800B9799F /* StationDetailViewController.xib */,
 				64546A781100C19B000AB949 /* Test-Info.plist */,
+				640AE6481100E2C3002A4597 /* README.md */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
