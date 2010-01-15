@@ -1,9 +1,9 @@
-= StationFinder
+# StationFinder
 
 Very simple iPhone application that finds NPR stations near you. 
 
 
-== Note on Patches/Pull Requests
+## Note on Patches/Pull Requests
  
 * Fork the project.
 * Make your feature addition or bug fix.
@@ -12,6 +12,6 @@ Very simple iPhone application that finds NPR stations near you.
 * Commit
 * Send me a pull request. Bonus points for topic branches.
 
-== Copyright
+## Copyright
 
 Copyright (c) 2009 Ed Schmalzle. See LICENSE for details.
