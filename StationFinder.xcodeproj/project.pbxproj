@@ -93,6 +93,7 @@
 		32CA4F630368D1EE00C91783 /* StationFinder_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationFinder_Prefix.pch; sourceTree = "<group>"; };
 		640AE5D41100D382002A4597 /* TestStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestStation.m; sourceTree = "<group>"; };
 		640AE6481100E2C3002A4597 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		640AE66B1100F58B002A4597 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		64546A5C1100C02D000AB949 /* GHAsyncTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHAsyncTestCase.h; sourceTree = "<group>"; };
 		64546A5D1100C02D000AB949 /* GHTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHTest.h; sourceTree = "<group>"; };
 		64546A5E1100C02D000AB949 /* GHTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHTestCase.h; sourceTree = "<group>"; };
@@ -106,7 +107,6 @@
 		64546A661100C02D000AB949 /* GHUnitIPhoneTestMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHUnitIPhoneTestMain.m; sourceTree = "<group>"; };
 		64546A671100C02D000AB949 /* GHUNSObject+Swizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GHUNSObject+Swizzle.h"; sourceTree = "<group>"; };
 		64546A681100C02D000AB949 /* libGHUnitIPhone3_0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGHUnitIPhone3_0.a; sourceTree = "<group>"; };
-		64546A691100C02D000AB949 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		64546A6A1100C02D000AB949 /* NSException+GHTestFailureExceptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSException+GHTestFailureExceptions.h"; sourceTree = "<group>"; };
 		64546A6B1100C02D000AB949 /* NSValue+GHValueFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValue+GHValueFormatter.h"; sourceTree = "<group>"; };
 		64546A6C1100C02D000AB949 /* RunTests.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = RunTests.sh; sourceTree = "<group>"; };
@@ -229,6 +229,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				640AE66B1100F58B002A4597 /* Makefile */,
 				64546A961100C4D3000AB949 /* Tests */,
 				64546A461100BFDA000AB949 /* Libraries */,
 				080E96DDFE201D6D7F000001 /* Classes */,
@@ -306,7 +307,6 @@
 				64546A661100C02D000AB949 /* GHUnitIPhoneTestMain.m */,
 				64546A671100C02D000AB949 /* GHUNSObject+Swizzle.h */,
 				64546A681100C02D000AB949 /* libGHUnitIPhone3_0.a */,
-				64546A691100C02D000AB949 /* Makefile */,
 				64546A6A1100C02D000AB949 /* NSException+GHTestFailureExceptions.h */,
 				64546A6B1100C02D000AB949 /* NSValue+GHValueFormatter.h */,
 				64546A6C1100C02D000AB949 /* RunTests.sh */,
@@ -431,6 +431,7 @@
 				64546A721100C19B000AB949 /* Resources */,
 				64546A731100C19B000AB949 /* Sources */,
 				64546A741100C19B000AB949 /* Frameworks */,
+				640AE6581100F42B002A4597 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -523,6 +524,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		640AE6581100F42B002A4597 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "Libraries/libGHUnitIPhone3_0-0.4.18/RunTests.sh";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1D60588E0D05DD3D006BFB54 /* Sources */ = {
